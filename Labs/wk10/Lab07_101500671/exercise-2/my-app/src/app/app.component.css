@@ -1,0 +1,26 @@
+:host {
+  display: block;
+  min-height: 100vh;
+}
+
+.welcome-screen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.5rem, 5vw, 3.75rem);
+  font-weight: 700;
+}
+
+.angular-logo {
+  width: min(18rem, 60vw);
+  height: auto;
+}
